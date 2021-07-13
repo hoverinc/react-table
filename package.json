@@ -1,6 +1,6 @@
 {
   "name": "@hover/react-table",
-  "version": "6.7.6",
+  "version": "6.7.7",
   "description": "A fast, lightweight, opinionated table and datagrid built on React",
   "license": "MIT",
   "homepage": "https://github.com/hoverinc/react-table#readme",
