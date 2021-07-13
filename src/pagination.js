@@ -22,15 +22,16 @@ export default class ReactTablePagination extends Component {
     }
   }
 
-  UNSAFE_componentWillReceiveProps (nextProps) {
-    this.setState({ page: nextProps.page })
-  }
-
   getSafePage (page) {
     if (isNaN(page)) {
       page = this.props.page
     }
     return Math.min(Math.max(page, 0), this.props.pages - 1)
+  }
+
+  // eslint-disable-next-line camelcase
+  UNSAFE_componentWillReceiveProps (nextProps) {
+    this.setState({ page: nextProps.page })
   }
 
   changePage (page) {

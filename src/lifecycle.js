@@ -1,5 +1,6 @@
 export default Base =>
   class extends Base {
+    // eslint-disable-next-line camelcase
     UNSAFE_componentWillMount () {
       this.setStateWithData(this.getDataModel(this.getResolvedState()))
     }
@@ -8,6 +9,7 @@ export default Base =>
       this.fireFetchData()
     }
 
+    // eslint-disable-next-line camelcase
     UNSAFE_componentWillReceiveProps (nextProps, nextState) {
       const oldState = this.getResolvedState()
       const newState = this.getResolvedState(nextProps, nextState)
