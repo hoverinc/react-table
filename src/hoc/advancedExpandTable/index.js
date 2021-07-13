@@ -94,6 +94,7 @@ export const advancedExpandTableHOC = TableComponent =>
       hideRowSubComponent,
       ...rest
     }) {
+      // eslint-disable-next-line react/jsx-pascal-case
       return <TableComponent.defaultProps.TdComponent {...rest} />
     }
 
