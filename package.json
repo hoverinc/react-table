@@ -49,8 +49,8 @@
   },
   "peerDependencies": {
     "prop-types": "^15.7.0",
-    "react": "^16.x.x",
-    "react-dom": "^16.x.x"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.0",
@@ -73,8 +73,8 @@
     "onchange": "^3.0.2",
     "postcss-cli": "^2.6.0",
     "prop-types": "^15.7.2",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-json-tree": "^0.10.9",
     "rimraf": "^2.6.1",
     "rollup": "^0.55.3",
