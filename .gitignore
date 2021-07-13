@@ -1,8 +1,8 @@
 node_modules/
-#lib/
+lib/
 docs/build
-#react-table.js
-#react-table.css
+react-table.js
+react-table.css
 *.log
 .idea
 .DS_Store
